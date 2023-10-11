@@ -3,7 +3,7 @@ Serial p;
 
 void setup(){
   size(400,400);
-  p = new.Serial(this, "COM4", 9600);
+  p = new Serial(this, "COM4", 9600);
 }
 
 void draw(){
